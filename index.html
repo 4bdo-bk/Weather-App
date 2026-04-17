@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="WeatherForm">
+        <input type="text" id="CityInput" placeholder="Enter City Name">
+        <button type="submit">Get Weather</button>
+    </form>
+
+    <div id="Card" style="display: none;">
+            <h2 id="CityDisplay">Algiers</h2>
+            <p id="temp"> 30°</p>
+            <p id="humidity">Humidity : 30%</p>
+            <p id="Description">Clear Skies</p>
+            <p id="Emoji">☀️</p>
+            <p id="error">Please enter a city</p>
+    </div>
+
+</body>
+
+<script src="ApiHandle.js"></script>
+</html>
