@@ -13,5 +13,7 @@ A simple weather application that shows current weather and forecasts for any ci
 - JavaScript
 - Weather API (OpenWeatherMap)
 
+🔗 Live Demo: https://weather-app-vert-beta.vercel.app/
+
 ## Author
 Boukhanouf Abdelhak.
